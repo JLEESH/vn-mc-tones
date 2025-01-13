@@ -1,0 +1,100 @@
+{
+    "VietnameseTones": {
+      "平聲": {
+        "Hanoi": {
+          "ToneName": "Ngang",
+          "Pitch": "33"
+        }
+      },
+      "玄聲": {
+        "Hanoi": {
+          "ToneName": "Huyền",
+          "Pitch": "21"
+        }
+      },
+      "問聲": {
+        "Hanoi": {
+          "ToneName": "Hỏi",
+          "Pitch": "313"
+        }
+      },
+      "跌聲": {
+        "Hanoi": {
+          "ToneName": "Ngã",
+          "Pitch": "3ʔ5"
+        }
+      },
+      "銳聲": {
+        "Hanoi": {
+          "ToneName": "Sắc",
+          "Pitch": "35"
+        }
+      },
+      "重聲": {
+        "Hanoi": {
+          "ToneName": "Nặng",
+          "Pitch": "21ʔ"
+        }
+      }
+    },
+    "MiddleChineseTones": {
+      "平聲": {
+        "ToneCategory": "Yin Level",
+        "Subcategories": {
+          "清": "Voiceless",
+          "濁": "Voiced"
+        }
+      },
+      "上聲": {
+        "ToneCategory": "Rising",
+        "Subcategories": {
+          "清": "Voiceless",
+          "濁": "Voiced"
+        }
+      },
+      "去聲": {
+        "ToneCategory": "Departing",
+        "Subcategories": {
+          "清": "Voiceless",
+          "濁": "Voiced"
+        }
+      },
+      "入聲": {
+        "ToneCategory": "Entering",
+        "Subcategories": {
+          "清": "Voiceless",
+          "濁": "Voiced"
+        }
+      }
+    },
+    "ToneRelationships": {
+      "平聲": {
+        "陰平": "Ngang",
+        "陽平": "Huyền"
+      },
+      "上聲": {
+        "陰上": "Hỏi",
+        "陽上": "Ngã"
+      },
+      "去聲": {
+        "陰去": "Sắc",
+        "陽去": "Nặng"
+      },
+      "入聲": {
+        "陰入": "Sắc (with /p/, /t/, /k/ finals)",
+        "陽入": "Nặng (with /p/, /t/, /k/ finals)"
+      }
+    },
+    "Examples (Wrong;for illustrative purposes only)": {
+      "Yin Level": ["thiên (天)", "nhân (人)", "quân (君)"],
+      "Yang Level ": ["hành (行)", "tài (才)", "nô (奴)"],
+      "Yang Level": ["hành (行)", "tài (才)", "nô (奴)"],
+      "Yin Rising": ["khả (可)", "bản (本)", "vẫn (穩)"],
+      "Yang Rising": ["ngã (仰)", "thượng (上)", "mệnh (猛)"],
+      "Yin Departing": ["chứng (証)", "giải (解)", "thiêu (召)"],
+      "Yang Departing": ["nặng (能)", "hạn (限)", "phạn (飯)"],
+      "Yin Entering": ["kết (結)", "bạt (拔)", "trực (直)"],
+      "Yang Entering": ["thực (實)", "phúc (福)", "học (學)"]
+    }
+  }
+  
