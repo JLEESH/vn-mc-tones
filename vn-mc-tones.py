@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
+# note: the examples are incorrect ; replace with correct examples in the future
+# the graphs are also overly simplistic ;
+# refer to actual-vn-mc-tones-correspondance.png taken from Wikipedia:
+# https://zh.wikipedia.org/wiki/%E5%9B%9B%E8%81%B2
+# TODO: enhance factual accuracy
+
 fontname = 'Apple LiGothic'
 fontname = ['AppleGothic', 'sans-serif']
 fontname = ['Apple LiGothic', 'sans-serif']
@@ -80,27 +86,9 @@ pos = {
     #"Sắc (with /p/, /t/, /k/ finals)": (6, 0), "Nặng (with /p/, /t/, /k/ finals)": (7, 0)
 }
 
-
-# # Plot the graph
-# pos = nx.multipartite_layout(graph, subset_key="layer")
-# plt.figure(figsize=(14, 10))
-
-# # Draw nodes and edges
-# nx.draw_networkx_nodes(graph, pos, node_size=2000, node_color="lightblue")
-# nx.draw_networkx_edges(graph, pos, arrowstyle="-|>", arrowsize=20, edge_color="black")
-# nx.draw_networkx_labels(graph, pos, font_size=10, font_weight="bold", font_family=fontname)
-
-# # Draw edge labels
-# edge_labels = nx.get_edge_attributes(graph, "label")
-# nx.draw_networkx_edge_labels(graph, pos, edge_labels=edge_labels, font_size=9)
-
 # Plot the graph
 plt.figure(figsize=(12, 5))
-# nx.draw(
-#     graph, pos, with_labels=True, node_size=2000, 
-#     node_color="lightblue", font_size=10, font_weight="bold",
-#     arrowsize=20, arrowstyle='-|>'
-# )
+
 nx.draw_networkx_nodes(graph, pos, node_size=2000, node_color="lightblue")
 nx.draw_networkx_edges(graph, pos, arrowstyle="-|>", arrowsize=2, edge_color="black")
 nx.draw_networkx_labels(graph, pos, font_size=10, font_weight="bold", font_family=fontname)
